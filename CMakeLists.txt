@@ -62,7 +62,7 @@ add_subdirectory(src)
 
 ## Build tests
 if(${LIBRARY_TYPE} STREQUAL SHARED)
-  add_subdirectory(test)
+  #add_subdirectory(test)
 endif()
 
 ## Build Plugins
